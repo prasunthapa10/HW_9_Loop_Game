@@ -1,5 +1,127 @@
 # HW_9_Loop_Game 
+# Introduction
+We are going to customize our addition game code using the methods and loops. This helps to make our code
+shorter and more effective.
+
+# Project Outline
+//Call the addition game method.
+// Assign the value for hardness, score and hardness setup.
+// Set up my for loop to go through the number of rounds
+//  Use the boolean data type to verify the answer
+// Use the if statement to compare the answers and Print statement to print the result.
+
+##  References & Literature
+*   Liang, Y. (2014). *Introduction to Java programming: Comprehensive version* (Tenth ed.).
+
+## Source Code
+```java
+ @author LAB
+ *
+ */import java.util.Scanner;
+public class Loop_Game {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello Team.");
+		//Call the addition game method.
+		AdditonGameMethod();
+		}
+		public static void AdditonGameMethod() {
+		System.out.println("Inside the addition game method.");
+		// Assign the value for hardness, score and hardness setup.
+		int hardness = 10;
+		int hardnessStep = 10;
+		int score = 0;
+		// Set up my for loop to go through the number of rounds
+		int numberOfRounds = 4;
+		for(int roundNumber = 1;
+		roundNumber <= numberOfRounds;
+		roundNumber = roundNumber + 1){
+		System.out.println("Inside the for loop. Round: " + roundNumber);
+		// Using the boolean data type to verify the answer
+		boolean isAnswerCorrect = getAndCheckStudentAnswer(hardness);
+		if(isAnswerCorrect){
+		System.out.print("Your score was " + score + " and is now ");
+		score = score + hardness;
+		System.out.println(score + ".");
+		if(roundNumber<numberOfRounds){
+		System.out.print("Your hardness was " + hardness + " and is now ");
+		hardness = hardness * hardnessStep;
+		System.out.println(hardness + ".");
+		}
+		}else{
+		if(roundNumber<numberOfRounds){
+		System.out.print("Your hardness was " + hardness + " and is now ");
+		if(hardness>10){
+		hardness = hardness / hardnessStep;
+		}
+		System.out.println(hardness + ".");
+		}
+		}
+		}
+		System.out.println("The game is complete.");
+		System.out.println("Your final score was " + score );
+		}
+		public static boolean getAndCheckStudentAnswer(int hardness) {
+		System.out.println("Inside get and check student answer method.");
+		int number1 = (int)(Math.random()*hardness);
+		int number2 = (int)(Math.random()*hardness);
+		System.out.println("Add " + number1 + " and " + number2 +".");
+		//Scanner input = new Scanner(System.in);
+		//int studentAnswer = input.nextInt();
+		Scanner get = new Scanner(System.in);
+		int studentAnswer = get.nextInt();
+		if(studentAnswer == (number1 + number2)){
+		System.out.println("Good work, your answer was correct.");
+		return true;
+		}else{
+		System.out.println("Nice try, but the correct answer was " + (number1 + number2));
+		return false;
+		}
+
+	
+}
+	}
+	```
+	## Console Output
+```
+Hello Team.
+Inside the addition game method.
+Inside the for loop. Round: 1
+Inside get and check student answer method.
+Add 1 and 1.
+2
+Good work, your answer was correct.
+Your score was 0 and is now 10.
+Your hardness was 10 and is now 100.
+Inside the for loop. Round: 2
+Inside get and check student answer method.
+Add 91 and 85.
+100
+Nice try, but the correct answer was 176
+Your hardness was 100 and is now 10.
+Inside the for loop. Round: 3
+Inside get and check student answer method.
+Add 4 and 5.
+9
+Good work, your answer was correct.
+Your score was 10 and is now 20.
+Your hardness was 10 and is now 100.
+Inside the for loop. Round: 4
+Inside get and check student answer method.
+Add 94 and 81.
+322
+Nice try, but the correct answer was 175
+The game is complete.
+Your final score was 20
+```
+
+
 # Command Prompt
+```
 
 
 E:\>Dir
@@ -96,3 +218,4 @@ To https://github.com/prasunthapa10/HW_9_Loop_Game.git
    6f92b53..5f8e2d3  master -> master
 
 E:\Methods_Loops_Addition_Game>
+```
