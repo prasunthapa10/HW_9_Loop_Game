@@ -13,17 +13,17 @@ public class Loop_Game {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello class.");
+		System.out.println("Hello Team.");
 		//Call the addition game method.
 		AdditonGameMethod();
 		}
 		public static void AdditonGameMethod() {
 		System.out.println("Inside the addition game method.");
-		int hardness = 5;
-		int hardnessStep = 2;
+		int hardness = 10;
+		int hardnessStep = 10;
 		int score = 0;
 		// Set up my for loop to go through the number of rounds
-		int numberOfRounds = 3;
+		int numberOfRounds = 4;
 		for(int roundNumber = 1;
 		roundNumber <= numberOfRounds;
 		roundNumber = roundNumber + 1){
