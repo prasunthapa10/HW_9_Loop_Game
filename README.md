@@ -85,9 +85,14 @@ public class Loop_Game {
 	
 }
 	}
-	```
-	## Console Output
+	
 ```
+	
+
+
+## Console Output
+```
+
 Hello Team.
 Inside the addition game method.
 Inside the for loop. Round: 1
