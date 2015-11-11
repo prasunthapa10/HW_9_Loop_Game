@@ -1,4 +1,5 @@
 # HW_9_Loop_Game 
+# Addition Game 
 # Introduction
 We are going to customize our addition game code using the methods and loops. This helps to make our code
 shorter and more effective.
