@@ -4,12 +4,13 @@ We are going to customize our addition game code using the methods and loops. Th
 shorter and more effective.
 
 # Project Outline
+```
 //Call the addition game method.
 // Assign the value for hardness, score and hardness setup.
 // Set up my for loop to go through the number of rounds
 //  Use the boolean data type to verify the answer
 // Use the if statement to compare the answers and Print statement to print the result.
-
+```
 ##  References & Literature
 *   Liang, Y. (2014). *Introduction to Java programming: Comprehensive version* (Tenth ed.).
 
