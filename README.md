@@ -225,4 +225,4 @@ To https://github.com/prasunthapa10/HW_9_Loop_Game.git
 E:\Methods_Loops_Addition_Game>
 ```
 ## Summary
-From this source code we can easily figure out how the methods have made our life easier. We have also used the for loop that has helped to generate the same loop for four times. The code has become short and sweet. Instead of typing the same code for four rounds, we used the for loop. We use the public static void method and public static boolean method to make our code easier in the above program.  
+From this source code we can easily figure out how the methods have made our life easier. We have also used the for loop that has helped to generate the same loop for four times. The pevious addition gam without loops and methods was too long, but now the code has become short and sweet. Instead of typing the same code for four rounds, we used the for loop. We use the public static void method and public static boolean method to make our code easier in the above program. We can use the same concept to find the otput of other programs in the upcoming days.  
