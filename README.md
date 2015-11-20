@@ -104,35 +104,13 @@ public class Addition_array  {
 ## Console Output
 ```
 
-Hello Team.
-Inside the addition game method.
-Inside the for loop. Round: 1
-Inside get and check student answer method.
-Add 1 and 1.
-2
-Good work, your answer was correct.
-Your score was 0 and is now 10.
-Your hardness was 10 and is now 100.
-Inside the for loop. Round: 2
-Inside get and check student answer method.
-Add 91 and 85.
-100
-Nice try, but the correct answer was 176
-Your hardness was 100 and is now 10.
-Inside the for loop. Round: 3
-Inside get and check student answer method.
-Add 4 and 5.
-9
-Good work, your answer was correct.
-Your score was 10 and is now 20.
-Your hardness was 10 and is now 100.
-Inside the for loop. Round: 4
-Inside get and check student answer method.
-Add 94 and 81.
-322
-Nice try, but the correct answer was 175
-The game is complete.
-Your final score was 20
+Round 1 of 3. Add 4 and 3: 7
+Correct. Your score was 0 and is now 5. Your hardness was 5 and is now 10.
+Round 2 of 3. Add 3 and 5: 8
+Correct. Your score was 5 and is now 15. Your hardness was 10 and is now 20.
+Round 3 of 3. Add 17 and 7: 24
+Correct. Your score was 15 and is now 35. 
+The game is complete. Your final score was 35
 ```
 
 
